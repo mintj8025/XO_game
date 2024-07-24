@@ -1,0 +1,40 @@
+/* App.css */
+body {
+  background-color: #f8f9fa; /* สีพื้นหลังของหน้าเว็บ */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* เต็มความสูงของ viewport */
+}
+
+.App {
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem; /* ขนาดตัวอักษรของ title */
+  margin-bottom: 1rem;
+  color: #333; /* สีตัวอักษรของ title */
+}
+
+.subtitle {
+  font-size: 1.5rem; /* ขนาดตัวอักษรของ subtitle */
+  margin-bottom: 2rem;
+  color: #666; /* สีตัวอักษรของ subtitle */
+}
+
+.button-container {
+  margin-top: 2rem;
+}
+
+.new-game-button {
+  background-color: #4CAF50; /* สีพื้นหลังของปุ่ม */
+  color: white; /* สีตัวอักษรของปุ่ม */
+  font-size: 1rem;
+}
